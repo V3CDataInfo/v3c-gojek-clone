@@ -6162,7 +6162,6 @@ img {
 .about-section-of {
     width: 100%;
     padding-top: 40px;
-    background-color: #f8f8f8;
 }
 
 .about-section-of-inner {
@@ -6224,7 +6223,7 @@ img {
 .faq-accordian-main {
     text-align: initial;
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
     display: block;
 }
 
@@ -7073,11 +7072,12 @@ img {
 
 /* ---------------------------------------------- */
 .blog-section {
-    padding: 0 0 40px 0;
+    padding: 40px 0 40px 0;
+    background-color: #f8f8f8;
 }
 
 .blog_sec_inner {
-    max-width: 1310px;
+    max-width: var(--container-width);
     padding: 0 15px;
     margin: 0 auto;
 }
