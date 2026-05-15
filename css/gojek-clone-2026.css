@@ -978,6 +978,9 @@ span.smallspace {
 
 .banner-section img {
     max-width: 100%;
+    vertical-align: top;
+    position: relative;
+    top: 7px;
 }
 
 .banner-btn {
@@ -1073,7 +1076,7 @@ span.smallspace {
 }
 
 .banner-description-top .left-caption .heading {
-    font-size: 45px;
+    font-size: 36px;
     font-weight: bold;
     line-height: normal;
     color: var(--separator-color);
@@ -1084,7 +1087,7 @@ span.smallspace {
 }
 
 .banner-description-top .left-caption .heading span {
-    font-size: 35px;
+    font-size: 61px;
     font-weight: 800;
     line-height: 1em;
     color: var(--theme);
@@ -7655,18 +7658,19 @@ img {
     }
 
     .banner-description-top .left-caption .heading {
-        font-size: 40px;
+        font-size: 28px;
         display: block;
         letter-spacing: normal;
         line-height: normal;
     }
 
     .banner-description-top .left-caption .heading span {
-        font-size: 24px;
-        line-height: 25px;
+        font-size: 40px;
         position: relative;
     }
-
+    .banner-section img {
+        top:3px;
+    }
     span.space {
         display: none;
     }
