@@ -6258,8 +6258,8 @@ ul.sitemap.advance_component li.full_width .main-cat-block p {
 .faq-accordian ul li>strong {
     display: block;
     position: relative;
-    color: #000;
-    background-color: #f8f8f8;
+    color: #fff;
+    background-color: #000;
     text-decoration: none;
     overflow: hidden;
     font-size: 18px;
@@ -6557,7 +6557,8 @@ img {
 
 .about-section-of {
     width: 100%;
-    margin-top: 30px;
+    padding-top: 40px;
+    background-color: #f8f8f8;
 }
 
 .about-section-of-inner {
@@ -6618,10 +6619,9 @@ img {
 .about-section-of-data,
 .faq-accordian-main {
     text-align: initial;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    background-color: var(--theme-light);
-    display: none;
+    padding-top: 0;
+    padding-bottom: 40px;
+    display: block;
 }
 
 .about-section-of-data .about-section-of-inner {
@@ -7470,7 +7470,6 @@ img {
 /* ---------------------------------------------- */
 .blog-section {
     padding: 40px 0 40px 0;
-    background-color: #f8f8f8;
 }
 
 .blog_sec_inner {
