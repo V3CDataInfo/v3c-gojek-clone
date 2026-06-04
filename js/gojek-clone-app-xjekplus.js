@@ -51,3 +51,10 @@ $('.flutter_button').click(function(){
   $(this).closest('.services-banner').toggleClass('open');
   $('.flutter-tech').toggleClass('active');
 })
+$(document).on('click', '.screens .TABROW .TAB', function() {
+  $('.screens .TABROW .TAB').removeClass('active');
+  $(this).addClass('active');
+  DATAAPP = $(this).attr('data-app');
+  $('.screens ul').removeClass('active');
+  $('.screens').find('#' + DATAAPP).addClass('active');
+});
