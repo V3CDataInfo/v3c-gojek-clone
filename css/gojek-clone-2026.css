@@ -6222,19 +6222,6 @@ ul.sitemap.advance_component li.full_width .main-cat-block p {
 }
 
 /*******************************************/
-.faq-accordian-row-flow {
-    max-width: 1310px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    position: relative;
-    list-style: none;
-    margin: 0 auto;
-    padding: 0 15px;
-}
-
 .faq-accordian ul {
     width: 100%;
     list-style: none;
@@ -6530,6 +6517,15 @@ img {
     justify-content: flex-start;
 }
 
+.faq {
+    background-color: #f8f8f8;
+    padding: 40px 0;
+}
+.faq-inner {
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: var(--container-width);
+}
 .business-startup-img {
     position: absolute;
     top: 0;
@@ -6557,8 +6553,6 @@ img {
 
 .about-section-of {
     width: 100%;
-    padding-top: 40px;
-    background-color: #f8f8f8;
 }
 
 .about-section-of-inner {
@@ -6616,12 +6610,12 @@ img {
     -o-transform: rotatex(-180deg);
 }
 
-.about-section-of-data,
-.faq-accordian-main {
+.about-section-of-data {
     text-align: initial;
-    padding-top: 0;
+    padding-top: 2px;
     padding-bottom: 40px;
-    display: block;
+    display: none;
+    background-color: #f8f8f8;
 }
 
 .about-section-of-data .about-section-of-inner {
@@ -6641,9 +6635,9 @@ img {
 }
 
 .box-rows ul li {
-    margin-bottom: 14px;
+    margin-bottom: 4px;
     font-size: 15px;
-    color: #666;
+    color: #000;
     padding: 0 0 0 18px;
     font-weight: 500;
     position: relative
@@ -6679,7 +6673,7 @@ img {
 }
 
 .sub-boxess {
-    padding-left: 20px;
+    padding-left: 24px;
     margin-bottom: 15px;
 }
 
