@@ -6489,14 +6489,14 @@ img {
 }
 
 .business-startup-left {
-    width: 15%;
+    width: 23%;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
 }
 
 .business-startup-right {
-    width: 84%;
+    width: 75%;
     position: relative;
 }
 
