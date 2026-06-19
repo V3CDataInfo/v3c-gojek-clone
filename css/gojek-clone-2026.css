@@ -5612,13 +5612,13 @@ img {
     z-index: 1;
 }
 .business-startup-left {
-    width: 23%;
+    width: 20%;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
 }
 .business-startup-right {
-    width: 75%;
+    width: 79%;
     position: relative;
 }
 .business-startup-wrap {
