@@ -2734,7 +2734,7 @@ ul.services-tabs li img {
     display: block;
     position: relative;
     padding: 0 0 40px;
-    background-color: #fff;
+    background-color: #f8f8f8;
 }
 .vietnam-section .video-icon a {
     width: 70px;
@@ -3774,7 +3774,7 @@ ul.sitemap.advance_component li.full_width .main-cat-block p {
     position: relative;
     z-index: 2;
     margin: 0px;
-    background-color: #f8f8f8;
+    background-color: #fff;
 }
 .flow-video-section .video-main {
     margin-top: 0;
@@ -4852,12 +4852,13 @@ ul.sitemap.advance_component li.full_width .main-cat-block p {
     text-align: center;
     padding: 40px 0 30px;
     position: relative;
+    background-color: #f8f8f8;
 }
 .slider-part .heading-area .head-style {
     margin-bottom: 7px;
 }
 .slider-part.style2 {
-    background-color: #f8f8f8;
+    background-color: #fff;
 }
 .slider-part.style2 .heading-area .head-style {
     color: var(--theme);
@@ -5082,6 +5083,7 @@ ul.sitemap.advance_component li.full_width .main-cat-block p {
     padding: 40px 0;
     width: 100%;
     position: relative;
+    background-color: #f8f8f8;
 }
 .testimonial-section-inner {
     margin: 0 auto;
@@ -5636,7 +5638,6 @@ img {
     justify-content: flex-start;
 }
 .faq {
-    background-color: #f8f8f8;
     padding: 40px 0;
 }
 .faq-inner {
@@ -6491,7 +6492,7 @@ img {
 }
 /* ---------------------------------------------- */
 .blog-section {
-    padding: 40px 0 40px 0;
+    padding: 0 0 40px 0;
 }
 .blog_sec_inner {
     max-width: var(--container-width);
