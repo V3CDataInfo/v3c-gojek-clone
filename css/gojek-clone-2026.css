@@ -939,7 +939,7 @@ p {
     font-weight: 400;
     margin-top: 13px;
 }
-.heading-area strong.subtitle {
+.heading-area .subtitle {
     font-size: 24px;
     font-weight: 800;
     display: block;
@@ -947,11 +947,13 @@ p {
     color: var(--theme);
     position: relative;
     margin-bottom: 7px;
+    margin-top: 13px;
+    font-family: var(--common-font);
 }
-.heading-area strong.subtitle .icon-play-button {
+.heading-area .subtitle .icon-play-button {
     color: #dab40c;
 }
-.heading-area strong.subtitle:after {
+.heading-area .subtitle:after {
     content: '';
     position: absolute;
     width: 50px;
@@ -2298,12 +2300,14 @@ ul.services-tabs li img {
     max-width: 100%;
     justify-content: center;
 }
-.gojekclone-video-section strong {
+.gojekclone-video-section strong,
+.gojekclone-video-section h3 {
     font-size: 18px;
     display: block;
     color: #000;
     margin-bottom: 4px;
     font-weight: 800;
+    font-family: var(--common-font);
 }
 .gojekclone-video-section .video-icon a {
     margin-top: -50px;
@@ -2891,7 +2895,8 @@ ul.services-tabs li img {
     display: inline-block;
     font-size: 0;
 }
-.caticonbox strong {
+.caticonbox strong,
+.caticonbox h3 {
     font-size: 18px;
     color: #000;
     text-transform: capitalize;
@@ -2903,6 +2908,7 @@ ul.services-tabs li img {
     width: -ms-calc(100% - 80px);
     width: -o-calc(100% - 80px);
     font-weight: 800;
+    font-family: var(--common-font);
 }
 .script-package-row-flow ul.colum-1 li::before {
     content: '';
@@ -3548,6 +3554,7 @@ ul.sitemap li .main-cat-block .servicename {
     font-size: 12px;
     margin-bottom: 10px;
     color: #000;
+    font-family: var(--common-font);
 }
 ul.sitemap.advance_component li {
     width: calc((100% / 3) - 14px);
@@ -3806,13 +3813,14 @@ ul.sitemap.advance_component li.full_width .main-cat-block p {
     grid-template-columns: auto 1fr;
     gap: 20px;
 }
-.flow-video-section .video-main .video-box strong {
+.flow-video-section .video-main .video-box .flow-video-title {
     font-size: 18px;
     margin-bottom: 6px;
     transition: .5s;
     font-weight: 700;
     display: block;
     color: #000;
+    font-family: var(--common-font);
 }
 .flow-video-section .video-main .video-box p {
     font-size: 15px;
@@ -4137,6 +4145,7 @@ ul.sitemap.advance_component li.full_width .main-cat-block p {
     text-transform: capitalize;
     display: block;
     font-family: var(--common-font);
+    color: #000;
 }
 .services-banner-design h3,
 .services-banner-design b {
@@ -4300,7 +4309,8 @@ ul.sitemap.advance_component li.full_width .main-cat-block p {
     margin-bottom: 0;
 }
 .invest-gojek-text-caption ul li h4,
-.invest-gojek-text-caption ul li b {
+.invest-gojek-text-caption ul li b,
+.invest-gojek-text-caption ul li h3 {
     font-size: 18px;
     font-weight: 700;
     width: calc(100% - 80px);
@@ -4308,6 +4318,7 @@ ul.sitemap.advance_component li.full_width .main-cat-block p {
     width: -moz-calc(100% - 80px);
     width: -webkit-calc(100% - 80px);
     color: #000;
+    font-family: var(--common-font);
 }
 /********************************/
 .latest-new-features {
@@ -5401,7 +5412,8 @@ ul.sitemap.advance_component li.full_width .main-cat-block p {
     border: 1px solid #ccc;
 }
 .faq ul.faqdata li>a,
-.faq ul.faqdata li>strong {
+.faq ul.faqdata li>strong,
+.faq ul.faqdata li>h2 {
     display: block;
     position: relative;
     color: #000;
@@ -5420,6 +5432,7 @@ ul.sitemap.advance_component li.full_width .main-cat-block p {
     padding: 10px 15px;
     margin-bottom: 12px;
     border-bottom: 1px solid #ccc;
+    font-family: var(--common-font);
 }
 .faq ul.faqdata li.double-column {
     margin-bottom: 0;
@@ -7058,7 +7071,7 @@ img {
     .bottom-banner .services-description strong {
         font-size: 28px;
     }
-    .flow-video-section .video-main .video-box strong {
+    .flow-video-section .video-main .video-box .flow-video-title {
         font-size: 20px;
         display: block;
     }
@@ -8017,7 +8030,8 @@ img {
         grid-column: 1 / -1;
     }
     .invest-gojek-text-caption ul li h4 br,
-    .invest-gojek-text-caption ul li b br {
+    .invest-gojek-text-caption ul li b br,
+    .invest-gojek-text-caption ul li h3 br {
         display: none;
     }
     /*******************************/
@@ -8299,7 +8313,8 @@ img {
     .main-cat-block {
         width: auto;
     }
-    .caticonbox strong {
+    .caticonbox strong,
+    .caticonbox h3 {
         min-height: auto;
     }
     .gojek_ai ul li:before {
@@ -8366,6 +8381,7 @@ img {
     .v3cube-clients-section .heading-area .head-style,
     .vietnam-caption .heading-area .head-style,
     .caticonbox strong,
+    .caticonbox h3,
     .free-text-section .heading-area .head-style,
     .video-row-caption-text h4,
     .video-row-caption-img,
