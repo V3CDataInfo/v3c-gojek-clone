@@ -870,7 +870,7 @@ p {
 }
 .heading-area p {
     width: 100%;
-    margin: 5px 0 0 0;
+    margin: 10px 0 0 0;
 }
 .heading-area .head-style {
     font-size: 34px;
@@ -2678,6 +2678,8 @@ ul.services-tabs li img {
     font-size: 16px;
     color: #000;
     font-weight: 400;
+}
+.free-text-section p:last-child {
     margin-bottom: 0;
 }
 .free-text-section p b {
@@ -3622,12 +3624,8 @@ span.numeric {
     background-repeat: no-repeat;
     display: none;
 }
-.main-cat-block p {
-    font-size: 13px;
-    color: #434343;
-    line-height: 19.4px;
+.main-cat-block p:last-child {
     margin-bottom: 0;
-    font-weight: 400;
 }
 .main-cat-block p.removebefore:before {
     display: none !important
@@ -3703,6 +3701,7 @@ ul.sitemap li .main-cat-block .servicename.newtitle {
     font-weight: 500;
     color: #000;
     text-align: justify;
+    line-height: 19.4px;
 }
 ul.sitemap li .main-cat-block strong.newsubtitle {
     font-size: 14px;
