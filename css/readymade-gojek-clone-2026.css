@@ -645,11 +645,10 @@ background-color: #0a8d45;
 }
 .proof {
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
     gap: 12px;
-    margin-bottom: 20px;
-    padding-bottom: 20px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
     border-bottom: 1px solid var(--line);
 }
 .avatars {
@@ -673,6 +672,7 @@ background-color: #0a8d45;
     font-size: 15px;
     color: #333;
     line-height: 1.5;
+    text-align: left;
 }
 .proof-text strong {
     color: var(--ink);
@@ -5117,9 +5117,6 @@ strong.desc_strong {
     .main-banner .main-banner-right p {
         text-align: center;
     }
-    .main-banner .container-inner {
-        flex-direction: column-reverse;
-    }
     .main-banner-left {
         width: 100%;
         margin-top: 30px;
@@ -5773,11 +5770,101 @@ strong.desc_strong {
 .wa-widget {
     bottom: 100px;
 }
+.main-banner-left{
+    margin: 0 0 20px;
+    text-align: center;
+}
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 0;
+}
+.features li {
+    background-color: #eaefff;
+    padding: 5px 10px;
+    border-radius: 8px;
+    font-size: 14px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    color: #000;
+    border: 1px solid #cfd8fb;
+    gap: 5px;
+}
+.features .check {
+    width: auto;
+    height: auto;
+    font-size: 12px;
+    background-color: transparent;
+}
+.trust-item {
+    gap: 2px;
+    padding: 6px 6px;
+    font-size: 11px;
+    font-weight: 500;
+}
+ .wa-widget {
+        bottom: 70px;
+    }
+
+    .wa-btn {
+        height: 35px;
+        padding: 0 10px 0 5px;
+        font-size: 15px;
+        gap: 5px;
+    }
+
+    .wa-icon-layer {
+        position: relative;
+        width: 25px;
+        height: 25px;
+    }
+
+    .wa-btn-text {
+        font-size: 14px;
+    }
+
+    .scroll-top-btn svg {
+        width: 35px;
+        height: 35px;
+        transform: rotate(-90deg);
+        pointer-events: none;
+    }
+
+    .scroll-top-btn {
+        right: 15px;
+        bottom: 15px;
+        width: 35px;
+        height: 35px;
+    }
+
+    .common-btn {
+        font-size: 16px;
+    }
+
+    .ad_cta_banner .stat b {
+        font-size: 17px;
+    }
+    .cta-row {
+        margin-bottom: 8px;
+        width: 100%;
+    }
+    .wa-icon-chat svg {
+        width: 17px;
+        height: 17px;
+    }
+    .cta-row a small {
+        font-size: 12px;
+    }
 }
 @media (max-width:580px) {
     .flow-video-section .video-main .video-box:not(:last-child) {
         grid-template-columns: 100%;
     }
+
 }
 @media screen and (max-width:480px) {
     .heading .heading-style {
@@ -5834,9 +5921,7 @@ strong.desc_strong {
         height: 40px;
         width: 40px;
     }
-    .features {
-        grid-template-columns: 100%;
-    }
+
     .services-card {
         grid-template-columns: 100%;
     }
