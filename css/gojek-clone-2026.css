@@ -7372,6 +7372,124 @@ img {
 }
 
 /* ---------------------------------------------- */
+.process{
+    padding: 45px 0;
+}
+ .process-row{
+    display:flex;
+    align-items: stretch;
+  }
+
+  .process-row .process-row-card{
+    flex: 1 1 0;
+    min-width:0;
+    position:relative;
+    background:#fff;
+    border: 1px solid #EDF0F7;
+    border-radius: 12px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 30px 15px 15px 15px;
+    text-align:center;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+
+.process-row  .badge-num {
+    position: absolute;
+    top: -5px;
+    left: 15px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: var(--theme);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 14px;
+}
+.process-row  p{
+    font-size: 15px;
+    margin: 0;
+    line-height: 20px;
+}
+  .process-row .icon-circle{
+    width: 132px;
+    height: 132px;
+    border-radius:50%;
+    background: #EEF3FE;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin: 0 auto 22px;
+  }
+
+  .process-row .icon-circle img{ width:80px; height:80px; }
+
+  .process-row .process-row-card strong{
+    font-weight:700;
+    font-size:18px;
+    margin:0 0 12px;
+    color: #000;
+    text-align: center;
+    display: block;
+  }
+
+  .process-row .title-underline{
+    display:block;
+    width: 30px;
+    height: 3px;
+    border-radius: 3px;
+    background: var(--theme);
+    margin: -6px auto 16px;
+  }
+
+
+.process-row .connector {
+    flex: 0 0 20px;
+    position: relative;
+}
+
+.process-row .connector::before {
+    content: "";
+    position: absolute;
+    top: 108px;
+    left: -20px;
+    right: 0;
+    border-top: 2px dashed #BFD3FB;
+    z-index: 2;
+    width: 60px;
+}
+
+  .process-row .chev{
+    position:absolute;
+    top: 108px;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width: 30px;
+    height:30px;
+    border-radius:50%;
+    background:#fff;
+    border: 1.5px solid #BFD3FB;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    z-index:2;
+  }
+
+  .process-row .chev svg {
+    width: 16px;
+    height: 16px;
+}
+  .process_inner{
+    max-width: 1310px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+/* ---------------------------------------------- */
 .blog-section {
     padding: 0 0 40px 0;
 }
@@ -7548,7 +7666,6 @@ img {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 24px;
-    margin-bottom: 30px;
 }
 
 .feature-card {
@@ -8471,6 +8588,14 @@ img {
     .tab__content ol {
         grid-template-columns: 100%;
     }
+    .process-row .connector{
+        display: none;
+    }
+    .process-row{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+    }
 }
 
 
@@ -8757,10 +8882,9 @@ img {
         flex-wrap: wrap;
     }
 
-    .masonry-block_ a.view-more>span {
-        font-size: 6vw;
-    }
-
+.masonry-block_ a.view-more>span {
+    font-size: 3vw;
+}
     .video-left {
         width: 100%;
         margin-bottom: 30px;
@@ -9100,6 +9224,9 @@ img {
     .ai-features .cards-grid {
         grid-template-columns: 1fr 1fr;
     }
+    .process-row{
+        grid-template-columns: 1fr 1fr;
+    }
 }
 
 @media screen and (max-width:850px) {
@@ -9185,9 +9312,9 @@ img {
     }
 
     .button-btn a {
-        font-size: 18px;
-        font-weight: 500;
-        padding: 10px 30px 12px 30px;
+        font-size: 16px;
+        font-weight: 800;
+        padding: 10px 20px 12px 20px;
         min-height: auto;
         line-height: 24px;
         text-align: center;
@@ -9354,6 +9481,9 @@ img {
     .faq ul._TABROW_ {
         grid-template-columns: 100%;
     }
+    .process-row {
+    grid-template-columns: 100%;
+}
 }
 
 @media screen and (max-width:630px) {
@@ -9407,7 +9537,7 @@ img {
     }
 
     .vietnam-caption .heading-area .head-style {
-        font-size: 29px !important;
+        font-size: 26px !important;
     }
 
     .kubinga .video-icon {
@@ -9577,6 +9707,15 @@ img {
 
     .ai-features .cards-grid {
         grid-template-columns: 100%;
+    }
+    .masonry-block_ a.view-more>span {
+        font-size: 6vw;
+    }
+    .faq ul._TABROW_ li {
+        font-size: 16px;
+    }
+    .process{
+        padding-bottom: 10px;
     }
 }
 
