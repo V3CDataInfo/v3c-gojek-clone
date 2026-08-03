@@ -7429,7 +7429,8 @@ img {
 
   .process-row .icon-circle img{ width:80px; height:80px; }
 
-  .process-row .process-row-card strong{
+  .process-row .process-row-card strong,
+  .process-row .process-row-card h3 {
     font-weight:700;
     font-size:18px;
     margin:0 0 12px;
