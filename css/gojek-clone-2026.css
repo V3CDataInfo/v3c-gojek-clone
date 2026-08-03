@@ -7511,16 +7511,20 @@ img {
 .blog-box {
     background: #fff;
     border-radius: 12px;
-    padding: 20px;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 0;
     transition: all 0.3s ease-in-out;
     box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
     transform: translateY(0);
     position: relative;
 }
-
+.blog-caption {
+    padding: 20px;
+}
+.blog-img a {
+    display: block;
+}
 .blog-box:hover {
     transform: translateY(-5px);
 }
