@@ -7507,7 +7507,9 @@ img {
     gap: 20px;
     width: 100%;
 }
-
+.loader {
+    grid-column: span 4;
+}
 .blog-box {
     background: #fff;
     border-radius: 12px;
@@ -7518,12 +7520,16 @@ img {
     box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
     transform: translateY(0);
     position: relative;
+    overflow: hidden;
 }
 .blog-caption {
     padding: 20px;
 }
 .blog-img a {
     display: block;
+}
+.blog-img a img {
+    vertical-align: top;
 }
 .blog-box:hover {
     transform: translateY(-5px);
