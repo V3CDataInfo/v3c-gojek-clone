@@ -799,6 +799,7 @@ p.desc b {
     display: flex;
     align-items: center;
     color: #363636;
+    padding-left: 12px;
 }
 .country_phone_num {
     padding: 10px 12px;
@@ -815,6 +816,16 @@ p.desc b {
     -o-border-radius: 0;
     border: 0;
     background: 0 0;
+}
+.countryPhoneSelectWrapper input#country_phone_code {
+    padding-left: 0;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    border-right: 1px solid var(--line);
+    height: 35px;
 }
 /****************************************/
 .usp-section {
