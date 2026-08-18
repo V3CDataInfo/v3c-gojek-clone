@@ -9133,11 +9133,6 @@ img {
     .testimonial-section-row-flow ul {
         grid-template-columns: repeat(5, 1fr);
     }
-
-    .testimonial-section-row-flow ul li:last-child {
-        grid-column: auto;
-    }
-
     .testimonial-thumb {
         position: relative;
         border-radius: 10px;
@@ -9544,11 +9539,6 @@ img {
     .testimonial-section-row-flow ul {
         grid-template-columns: repeat(4, 1fr);
     }
-
-    .testimonial-section-row-flow ul li:last-child {
-        grid-column: span 2;
-    }
-
     .testimonial-section-row-flow ul li.testimonial-single-item {
         margin-bottom: 30px;
     }
@@ -9674,10 +9664,6 @@ img {
 
     .testimonial-section-row-flow ul {
         grid-template-columns: repeat(3, 1fr);
-    }
-
-    .testimonial-section-row-flow ul li:last-child {
-        grid-column: span 2;
     }
 
     .heading-area .head-style .element {
