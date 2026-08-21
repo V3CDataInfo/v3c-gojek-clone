@@ -10037,21 +10037,14 @@ img {
         -ms-border-radius: 10px 0 0 0;
         -o-border-radius: 10px 0 0 0;
     }
-
-    .testimonial-section-row-flow ul li:last-child .testimonial-single-item {
-        min-height: 70px;
-    }
-
     .testimonial-section-row-flow ul li:last-child .testimonial-single-item:before {
         width: 40px;
         height: 40px;
     }
-
     .testimonial-section-row-flow ul li:last-child .testimonial-single-item:after {
         width: 40px;
         height: 40px;
     }
-
     .TABROW .TAB {
         padding: 8px 14px;
         font-size: 16px;
