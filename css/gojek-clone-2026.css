@@ -2581,7 +2581,7 @@ ul.services-tabs li img {
 }
 
 .gojekclone-video-section strong,
-.gojekclone-video-section h3 {
+.gojekclone-video-section .flow-video-title {
     font-size: 18px;
     display: block;
     color: #000;
@@ -3094,8 +3094,8 @@ ul.services-tabs li img {
 }
 
 .vietnam-section.kubinga {
-    padding: 40px 0;
-    background-color: #f8f8f8;
+    padding: 40px 0 0 0;
+    background-color: #fff;
 }
 
 .vietnam-section {
@@ -3289,7 +3289,7 @@ ul.services-tabs li img {
 }
 
 .caticonbox strong,
-.caticonbox h3 {
+.caticonbox .script-column-title {
     font-size: 18px;
     color: #000;
     text-transform: capitalize;
@@ -4345,7 +4345,7 @@ ul.sitemap.advance_component li.full_width .main-cat-block p {
 }
 
 .flow-video-section .video-main .video-box .flow-video-title {
-    font-size: 18px;
+    font-size: 17px;
     margin-bottom: 6px;
     transition: .5s;
     font-weight: 700;
@@ -7106,6 +7106,7 @@ img {
 /* ---------------------------------------------- */
 .process{
     padding: 45px 0;
+    background-color: #f8f8f8;
 }
  .process-row{
     display:flex;
@@ -7162,7 +7163,7 @@ img {
   .process-row .icon-circle img{ width:80px; height:80px; }
 
   .process-row .process-row-card strong,
-  .process-row .process-row-card h3 {
+  .process-row .process-row-card .process-title {
     font-weight:700;
     font-size:18px;
     margin:0 0 12px;
@@ -7499,7 +7500,8 @@ img {
     color: #0d9488;
 }
 
-.feature-card h3 {
+.feature-card h3,
+.feature-card h4 {
     font-size: 20px;
     font-weight: 700;
     color: #0f172a;
