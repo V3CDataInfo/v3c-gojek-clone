@@ -6851,10 +6851,14 @@ ul.sitemap.advance_component li.full_width .main-cat-block p {
 
 .green-bg {
     background-color: #E6F7ED;
+    color: #10B981;
 }
-
+.green-bg.icon-whatsapp:before{
+color: #10B981;
+}
 .blue-bg {
     background-color: #FDEEE6;
+    color: #FE7320;
 }
 
 .cyan-bg {
@@ -8201,7 +8205,6 @@ article p {
     border: none;
     outline: none;
     text-align: left;
-    cursor: pointer;
     display: flex;
     justify-content: space-between;
     align-items: center;
