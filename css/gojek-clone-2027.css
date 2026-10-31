@@ -2448,8 +2448,16 @@ ul.services-tabs li img {
 .gojekclone-video-section .gojekclone-video-row .gojekclone-video-column>div:hover {
     border-color: var(--primary);
 }
-
-.gojekclone-video-section .gojekclone-video-row .gojekclone-video-column>div i[class^="icon-"] {
+.gojekclone-video-section .gojekclone-video-row .gojekclone-video-column>div:nth-child(2):hover{
+    border-color: #ea580c;
+}
+.gojekclone-video-section .gojekclone-video-row .gojekclone-video-column:nth-child(3)>div:hover{
+    border-color: #65a30d;
+}
+.gojekclone-video-section .gojekclone-video-row .gojekclone-video-column:nth-child(3)>div:nth-child(2):hover{
+    border-color: #2563eb;
+}
+.gojekclone-video-section .gojekclone-video-row .gojekclone-video-column>div i[class^="icon_"] {
     width: 74px;
     height: 74px;
     border-radius: 12px;
@@ -2463,7 +2471,7 @@ ul.services-tabs li img {
     -o-border-radius: 12px;
 }
 
-.gojekclone-video-section .gojekclone-video-row .gojekclone-video-column>div i[class^="icon-"] svg {
+.gojekclone-video-section .gojekclone-video-row .gojekclone-video-column>div i[class^="icon_"] svg {
     width: 40px;
     height: 40px;
 }
@@ -2529,9 +2537,10 @@ ul.services-tabs li img {
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
     border: 2px solid #f4effe;
+    font-size: 25px;
 }
 
-.flow-video-icon i svg {
+.flow-video-icon i::before {
     position: relative;
     left: 2px;
 }
@@ -3520,7 +3529,8 @@ ul.services-tabs li img {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-shrink: 0;
+   flex-shrink: 0;
+   font-size: 25px;
 }
 
 .gojekclone-stats-icon-circle svg {
@@ -3763,10 +3773,13 @@ ul.services-tabs li img {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 30px;
+    font-size: 27px;
     background: var(--primary-light);
+    color: var(--primary);
 }
-
+.vietnam-caption ul li i::before{
+    color: var(--primary);
+}
 .vietnam-caption ul li i svg {
     width: 30px;
     height: 30px;
@@ -5598,8 +5611,11 @@ ul.sitemap.advance_component li.full_width .main-cat-block p {
     justify-content: center;
     font-size: 30px;
     background: var(--primary-light);
+    color: var(--primary);
 }
-
+.flow-video-feature-icon::before{
+    color: var(--primary);
+}
 .flow-video-feature-icon svg {
     width: 30px;
     height: 30px;
@@ -6715,7 +6731,10 @@ ul.sitemap.advance_component li.full_width .main-cat-block p {
     align-items: center;
     gap: 10px;
 }
-
+.testing-limit-banner i.icon-b_security {
+    font-size: 19px;
+    color: var(--primary);
+}
 .testing-banner-text {
     display: flex;
     flex-direction: column;
@@ -9201,6 +9220,10 @@ img {
     align-items: center;
     justify-content: center;
     color: var(--accent);
+    font-size: 30px;
+}
+.ai-features .icon-box.icon-whatsapp:before{
+    color: var(--accent);
 }
 
 .ai-features .icon-box svg {
@@ -9641,6 +9664,51 @@ img {
     background: #FEF5E3;
     color: #F5A81C;
 }
+/* __________________ */
+.icon_green {
+    color: #16a34a;
+    background-color: #e8faf0;
+}
+
+.icon_orange {
+    color: #ea580c;
+    background-color: #fef5ed;
+}
+
+.icon_purple {
+    color: #9333ea;
+    background-color: #f4effe;
+}
+
+.icon_blue {
+    color: #2563eb;
+    background-color: #eef5fe;
+}
+
+.icon_lime {
+    color: #65a30d;
+    background-color: #f0f9e8;
+}
+
+.icon_sky {
+    color: #0284c7;
+    background-color: #ecf3fe;
+}
+
+.icon_rose {
+    background: #ffeef2;
+    color: #ee2c60;
+}
+
+.icon_cyan {
+    background: #E9FAFA;
+    color: #1CAFB8;
+}
+
+.icon_yellow {
+    background: #FEF5E3;
+    color: #F5A81C;
+}
 
 /* ── FEATURE GRID ── */
 .feature-grid {
@@ -9692,7 +9760,7 @@ img {
     transition: transform 0.3s;
 }
 
-.feat-icon svg {
+.feat-icon img {
     width: 30px;
     height: 30px;
 }
@@ -11963,10 +12031,6 @@ img {
         gap: 12px;
     }
 
-    .gojekclone-video-section .gojekclone-video-row .gojekclone-video-column>div i[class^="icon-"] {
-        width: 56px;
-        height: 56px;
-    }
 
     .flow-video-icon {
         display: none;
